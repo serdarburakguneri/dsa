@@ -13,6 +13,10 @@ This repository is dedicated to providing solutions to a variety of data structu
 To run the tests, navigate to the root of the project and run the following command:
 
 ```bash
+cd dsa
+```
+
+```bash
 mvn clean test
 ```
 
