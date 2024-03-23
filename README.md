@@ -33,22 +33,22 @@ So please think of this as a learning resource rather than a production-ready co
 ### Linked Lists
 
 * Problem 1: Loop Detection (Floyd's Tortoise and Hare Algorithm)
-    - [Solution](linked-lists/src/main/java/com/sbg/dsa/linkedlist/LoopProblem.java)
-    - [Test](linked-lists/src/test/java/com/sbg/dsa/linkedlist/LoopProblemTest.java)
+    - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/LoopProblem.java)
+    - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/LoopProblemTest.java)
 
 * Problem 2: Reverse a Linked List
-    - [Solution](linked-lists/src/main/java/com/sbg/dsa/linkedlist/ReversingProblem.java)
-    - [Test](linked-lists/src/test/java/com/sbg/dsa/linkedlist/ReversingProblemTest.java)
+    - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/ReversingProblem.java)
+    - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/ReversingProblemTest.java)
 
 * Problem 3: Merging Two Sorted Linked Lists
-    - [Solution](linked-lists/src/main/java/com/sbg/dsa/linkedlist/MergingTwoSortedListsProblem.java)
-    - [Test](linked-lists/src/test/java/com/sbg/dsa/linkedlist/MergingTwoSortedListsProblemTest.java)
+    - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/MergingTwoSortedListsProblem.java)
+    - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/MergingTwoSortedListsProblemTest.java)
 
 * Problem 4: Sorting a linked list using merge sort
-    - [Solution](linked-lists/src/main/java/com/sbg/dsa/linkedlist/MergeSortProblem.java)
-    - [Test](linked-lists/src/test/java/com/sbg/dsa/linkedlist/MergeSortProblemTest.java)
+    - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/MergeSortProblem.java)
+    - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/MergeSortProblemTest.java)
 
 * Problem 5: Removing the N-th node from the end of a linked list
-    - [Solution](linked-lists/src/main/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblem.java)
-    - [Test](linked-lists/src/test/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblemTest.java)
+    - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblem.java)
+    - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblemTest.java)
   
