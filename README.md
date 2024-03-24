@@ -27,7 +27,8 @@ Or, you can run the tests individually using your favorite IDE.
 PS: You may see code duplication in some of the solutions. This is intentional to keep the solutions isolated from each
 other.
 
-I am having this repository as a reference for myself and others to learn and understand or remember the problems.
+I am having this repository as a reference for myself and others to learn and understand the problems
+& refresh the concepts.
 So please think of this as a learning resource rather than a production-ready codebase.
 
 ### Linked Lists
@@ -51,4 +52,9 @@ So please think of this as a learning resource rather than a production-ready co
 * Problem 5: Removing the N-th node from the end of a linked list
     - [Solution](linked-list/src/main/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblem.java)
     - [Test](linked-list/src/test/java/com/sbg/dsa/linkedlist/RemoveNthNodeFromEndProblemTest.java)
-  
+
+### Binary Trees
+
+* Problem 1: Traversal
+    - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/TraversalProblem.java)
+    - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/TraversalProblemTest.java)
