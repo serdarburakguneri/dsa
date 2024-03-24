@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class BalancedTreeCheckProblemTest {
+public class BalancedTreeProblemTest {
 
     @Test
     void testIsBalancedWhenTreeIsBalanced() {
@@ -27,7 +27,7 @@ public class BalancedTreeCheckProblemTest {
         Node node3 = new Node(2, node4, node5);
         Node node1 = new Node(1, node2, node3);
 
-        assertTrue(BalancedTreeCheckProblem.isBalanced(node1));
+        assertTrue(BalancedTreeProblem.isBalanced(node1));
     }
 
     @Test
@@ -51,7 +51,7 @@ public class BalancedTreeCheckProblemTest {
         Node node2 = new Node(2, node4, node5);
         Node node1 = new Node(1, node2, node3);
 
-        assertFalse(BalancedTreeCheckProblem.isBalanced(node1));
+        assertFalse(BalancedTreeProblem.isBalanced(node1));
     }
 
 }

@@ -60,5 +60,9 @@ So please think of this as a learning resource rather than a production-ready co
     - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/TraversalProblemTest.java)
 
 * Problem 2: Balance Check
-    - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/BalancedTreeCheckProblem.java)
-    - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/BalancedTreeCheckProblemTest.java)
+    - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/BalancedTreeProblem.java)
+    - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/BalancedTreeProblemTest.java)
+
+* Problem 3: Binary Search Tree
+    - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/BinarySearchTreeProblem.java)
+    - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/BinarySearchTreeProblemTest.java)

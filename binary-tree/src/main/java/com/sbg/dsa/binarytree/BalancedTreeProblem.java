@@ -1,6 +1,6 @@
 package com.sbg.dsa.binarytree;
 
-public class BalancedTreeCheckProblem {
+public class BalancedTreeProblem {
 
     public static boolean isBalanced(Node root) {
         return checkHeight(root) != -1;
