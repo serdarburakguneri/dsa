@@ -66,3 +66,9 @@ So please think of this as a learning resource rather than a production-ready co
 * Problem 3: Binary Search Tree
     - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/BinarySearchTreeProblem.java)
     - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/BinarySearchTreeProblemTest.java)
+
+### Arrays
+
+* Problem 1: Reverse an Array
+  - [Solution](array/src/main/java/com/sbg/dsa/array/ReversingProblem.java)
+  - [Test](array/src/test/java/com/sbg/dsa/array/ReversingProblemTest.java)

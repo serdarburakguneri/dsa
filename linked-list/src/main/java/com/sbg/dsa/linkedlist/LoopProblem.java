@@ -2,46 +2,45 @@ package com.sbg.dsa.linkedlist;
 
 public class LoopProblem {
 
-    public static boolean hasLoop(Node head) {
-        Node slow = head;
-        Node fast = head;
+  public static boolean hasLoop(Node head) {
+    Node slow = head;
+    Node fast = head;
 
-        while (fast != null && fast.getNext() != null) {
-            slow = slow.getNext();
-            fast = fast.getNext().getNext();
+    while (fast != null && fast.getNext() != null) {
+      slow = slow.getNext();
+      fast = fast.getNext().getNext();
 
-            if (slow == fast) {
-                return true;
-            }
-        }
-
-        return false;
+      if (slow == fast) {
+        return true;
+      }
     }
 
-    public static void fixLoop(Node head) {
-        Node slow = head;
-        Node fast = head;
+    return false;
+  }
 
-        while (fast != null && fast.getNext() != null) {
-            slow = slow.getNext();
-            fast = fast.getNext().getNext();
+  public static void fixLoop(Node head) {
+    Node slow = head;
+    Node fast = head;
 
-            if (slow == fast) {
-                break;
-            }
-        }
+    while (fast != null && fast.getNext() != null) {
+      slow = slow.getNext();
+      fast = fast.getNext().getNext();
 
-        if (fast == null || fast.getNext() == null) {
-            return;
-        }
-
-        slow = head;
-        while (slow != fast) {
-            slow = slow.getNext();
-            fast = fast.getNext();
-        }
-
-        fast.setNext(null);
+      if (slow == fast) {
+        break;
+      }
     }
 
+    if (fast == null || fast.getNext() == null) {
+      return;
+    }
+
+    slow = head;
+    while (slow != fast) {
+      slow = slow.getNext();
+      fast = fast.getNext();
+    }
+
+    fast.setNext(null);
+  }
 }
