@@ -76,3 +76,7 @@ So please think of this as a learning resource rather than a production-ready co
 * Problem 2: Sliding Windows
   - [Solution](array/src/main/java/com/sbg/dsa/array/SlidingWindowProblem.java)
   - [Test](array/src/test/java/com/sbg/dsa/array/SlidingWindowProblemTest.java)
+
+* Problem 3: Prefix Sum
+  - [Solution](array/src/main/java/com/sbg/dsa/array/PrefixSumProblem.java)
+  - [Test](array/src/test/java/com/sbg/dsa/array/PrefixSumProblemTest.java)
