@@ -31,6 +31,20 @@ I am having this repository as a reference for myself and others to learn and un
 & refresh the concepts.
 So please think of this as a learning resource rather than a production-ready codebase.
 
+### Arrays
+
+* Problem 1: Reversing
+  - [Solution](array/src/main/java/com/sbg/dsa/array/ReversingProblem.java)
+  - [Test](array/src/test/java/com/sbg/dsa/array/ReversingProblemTest.java)
+
+* Problem 2: Sliding Windows
+  - [Solution](array/src/main/java/com/sbg/dsa/array/SlidingWindowProblem.java)
+  - [Test](array/src/test/java/com/sbg/dsa/array/SlidingWindowProblemTest.java)
+
+* Problem 3: Prefix Sum
+  - [Solution](array/src/main/java/com/sbg/dsa/array/PrefixSumProblem.java)
+  - [Test](array/src/test/java/com/sbg/dsa/array/PrefixSumProblemTest.java)
+
 ### Linked Lists
 
 * Problem 1: Loop Detection (Floyd's Tortoise and Hare Algorithm)
@@ -66,17 +80,3 @@ So please think of this as a learning resource rather than a production-ready co
 * Problem 3: Binary Search Tree
     - [Solution](binary-tree/src/main/java/com/sbg/dsa/binarytree/BinarySearchTreeProblem.java)
     - [Test](binary-tree/src/test/java/com/sbg/dsa/binarytree/BinarySearchTreeProblemTest.java)
-
-### Arrays
-
-* Problem 1: Reverse an Array
-  - [Solution](array/src/main/java/com/sbg/dsa/array/ReversingProblem.java)
-  - [Test](array/src/test/java/com/sbg/dsa/array/ReversingProblemTest.java)
-
-* Problem 2: Sliding Windows
-  - [Solution](array/src/main/java/com/sbg/dsa/array/SlidingWindowProblem.java)
-  - [Test](array/src/test/java/com/sbg/dsa/array/SlidingWindowProblemTest.java)
-
-* Problem 3: Prefix Sum
-  - [Solution](array/src/main/java/com/sbg/dsa/array/PrefixSumProblem.java)
-  - [Test](array/src/test/java/com/sbg/dsa/array/PrefixSumProblemTest.java)
